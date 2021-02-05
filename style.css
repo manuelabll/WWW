@@ -1,0 +1,118 @@
+body {
+    background-color: rgba(25, 25, 112, 0.692);
+}
+
+.moon {
+
+    
+}
+
+@keyframes glow {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    75% {
+        opacity: 0.1;
+    }
+}
+
+#shine1 {
+    position: absolute;
+    background: rgb(245, 245, 166);
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    left: 150px;
+    top: 150px;
+    z-index: -1;
+    
+}
+
+#shine2 {
+    position: absolute;
+    background:rgb(245, 245, 166);
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    opacity: 0.7;
+    z-index: -2;
+    left: 125px;
+    top: 125px;
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+} 
+
+#shine3 {
+    position: absolute;
+    background: rgb(245, 245, 166);
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    opacity: 0.5;
+    z-index: -3;
+    left: 100px;
+    top: 100px;
+    animation-name: glow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#shine4 {
+    position: absolute;
+    background: rgb(245, 245, 166);
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;
+    opacity: 0.3;
+    z-index: -4;
+    left: 75px;
+    top: 75px;
+    animation-name: glow;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+} 
+
+#frame {
+    position: absolute;
+    z-index: -7;
+    background-color: midnightblue;
+    width: 820px;
+    height: 720px;
+    border-radius: 0px 150px 150px 0px;
+    
+    
+}
+
+
+#cover {
+    position: absolute;
+    background-color: rgba(96, 96, 156);
+    width: 620px;
+    height: 720px;
+    margin-left: 820px;
+    border-radius: 250px 0px 0px 250px;
+}
+
+@keyframes open {
+    from{
+        width: 620px;
+        height: 700px;
+        margin-left: 820px;
+    }
+    to{
+        width: 1150px;
+        height: 720px;
+        margin-left: 300px;
+    }
+}
+
+#cover:hover{
+    animation-name: open;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
