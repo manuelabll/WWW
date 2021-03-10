@@ -1,0 +1,204 @@
+body {
+    background-image: linear-gradient(rgba(25, 25, 112, 0.692), violet);
+}
+
+.nav{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 6%;
+    z-index: 1;
+}
+
+a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a:hover{
+    color: indigo;
+    background-color: whitesmoke;
+}
+
+.tittle{
+    margin-top: 2%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.tv1-tittle{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: black;
+    margin-left: 6%;
+    
+
+
+}
+
+.tv1-text{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 9%;
+    padding-right: 9px;
+    opacity: 0;
+
+}
+
+#tv1{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 20%;
+    z-index: 1;
+}
+
+.tv1{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 18%;
+    width: 520px; 
+    height: 350px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    opacity: 50%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
+}
+
+.tv1:hover{
+    width: 860px; 
+    
+
+}
+
+.tv1 h3:hover{
+    opacity: 1;
+    margin-left: 58%;
+}
+
+#tv2{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 20%;
+    z-index: 1;
+}
+
+.tv2-tittle{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: black;
+    margin-left: 6%;
+    
+}
+
+.tv2-text{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 9%;
+    padding-right: 9px;
+    opacity: 0;
+
+}
+
+
+.tv2{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 18%;
+    width: 520px; 
+    height: 350px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    opacity: 50%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
+}
+
+.tv2:hover{
+    width: 860px; 
+    
+
+}
+
+.tv2 h3:hover{
+    opacity: 1;
+    margin-left: 58%;
+}
+
+#tv3{
+    position: absolute;
+    margin-top: 59%;
+    margin-left: 20%;
+    z-index: 1;
+
+}
+
+.tv3-tittle{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: black;
+    margin-left: 6%;
+    
+}
+
+.tv3-text{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 11%;
+    padding-right: 9px;
+    opacity: 0;
+
+}
+
+
+.tv3{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 18%;
+    width: 520px; 
+    height: 350px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    opacity: 50%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
+}
+
+.tv3:hover{
+    width: 860px; 
+    
+
+}
+
+.tv3 h3:hover{
+    opacity: 1;
+    margin-left: 58%;
+}
+
+.footer{
+    
+    margin-left: -2%;
+    width: 1500px;
+    height: 100px;
+    position: absolute;
+    margin-top: 84%;
+    background-color: whitesmoke;
+    opacity: 0.5;
+
+}

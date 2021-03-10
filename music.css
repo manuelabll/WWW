@@ -1,0 +1,124 @@
+body {
+    background-image: linear-gradient(rgba(25, 25, 112, 0.692), black);
+}
+
+.nav{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+
+a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(25, 25, 112);
+    background-color: whitesmoke;
+}
+
+.text{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: whitesmoke; 
+    margin-top: -2%;
+}
+
+
+#ipod{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 15%;
+    transform: rotate(-15deg);
+    border-radius: 30px;
+    width: 330px;
+    height: 540px;
+    background-color: black;
+    box-shadow: 10px 10px 5px rgb(26, 26, 26, 0.2);
+
+}
+
+#ipod:hover{
+    transform: rotate(0deg);
+    
+}
+
+#playlist {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 4%;
+    z-index: 1;
+}
+
+#wheel{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 20%;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-image: linear-gradient(to bottom right, grey, black);    
+    z-index: 1;
+
+}
+
+#button{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 25%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: black;  
+    z-index: 2;
+
+}
+
+.playlists{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 47%;
+    padding-top: 4px;
+    opacity: 0.7;
+}
+
+
+.p2{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.p2:hover{
+    box-shadow: 10px 10px 5px rgb(26, 26, 26, 0.2);
+    height: 200px;
+}
+
+.p1:hover{
+    box-shadow: 10px 10px 5px rgb(26, 26, 26, 0.2);
+    height: 200px;
+
+}
+
+.p3:hover{
+    box-shadow: 10px 10px 5px rgb(26, 26, 26, 0.2);
+    height: 200px;
+
+}
